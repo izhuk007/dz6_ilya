@@ -1,6 +1,6 @@
 .product {
     padding-bottom: 60px;
-    
+
     &__row {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -48,7 +48,6 @@
     }
     
     &__info {
-        margin-bottom: 10px;
         font-weight: 600;
         font-size: 12px;
         color: #A9A9A9;
