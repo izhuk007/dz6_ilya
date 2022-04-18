@@ -1,0 +1,128 @@
+.product {
+    padding-bottom: 60px;
+    
+    &__row {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 10px
+    }
+
+    &__item {
+        background: #FFFFFF;
+        border: 0.5px solid rgba(42, 42, 42, 0.15);
+        box-sizing: border-box;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06);
+        padding: 20px;
+        text-align: center;
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__sale {
+        background: #7FAD39;
+        padding: 9px 7px 8px;
+        max-height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    &__text {
+        font-weight: 800;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    &__img {
+        margin-bottom: 9px;
+    }
+    
+    &__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    &__info {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 12px;
+        color: #A9A9A9;
+        line-height: 22px;
+    }
+
+    &__name {
+        margin-bottom: 19px;
+        font-size: 16px;
+        color: #2A2A2A;
+        line-height: 22px;
+    }
+
+    &__price {
+        font-size: 16px;
+        line-height: 22px;
+        color: #7FAD39;
+        margin-bottom: 27px;
+
+        span {
+            text-decoration: line-through;
+            color: #A9A9A9;
+            line-height: inherit;
+        }
+    }
+
+}
+
+.favorite {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #D8E6C3;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition: all 0.2s;
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    &:hover {
+        background-color: springgreen;
+    }
+}
+
+.product-number {
+    display: flex;
+
+    &__btn {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-color: #2A2A2A;
+    }
+
+    &__input{
+        width: 25px;
+        height: 25px;
+        border: none;
+        text-align: center;
+        line-height: 22px;
+        font-weight: inherit;
+        font-family: inherit;
+
+        &::placeholder {
+            font-size: 12px;
+            line-height: inherit;
+            font-weight: inherit;
+            font-family: inherit;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+mixin product-item(args={})
+    .product__item
+        .product__wrap
+            .product__sale
+                span.product__text 15%Off
+            button.favorite.btn
+                img(src="./assets/images/love.svg", alt="love").favorite__icon
+        a.product__link(href="#")
+            img(src=args.img, alt="product").product__img
+            span.product__info Available(in stock)
+            span.product__name=args.text
+            span.product__price $12 
+                span $15 
+        .product__wrap
+            .product__number.product-number
+                button.product-number__btn.btn
+                    img(src="./assets/images/min.svg", alt="min").icon
+                input(type="text" placeholder="1").product-number__input
+                button.product-number__btn.btn
+                    img(src="./assets/images/plus.svg", alt="plus").icon
+            button.product__basket.btn
+                img(src="./assets/images/box.svg", alt="basket").icon
+            

@@ -3,13 +3,28 @@
 }
 
 html {
-  background-color: #fff;
+  background-color: #E5E5E5;
   font-weight: 800;
   font-size: 16px;
   font-style: normal;
   font-family: 'Cerebri Sans Pro', sans-serif;
   line-height: 30px;
   color: #000;
+}
+
+span {
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .container {
