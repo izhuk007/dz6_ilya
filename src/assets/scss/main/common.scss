@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'Cerebri Sans Pro', sans-serif;
+  line-height: 30px;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

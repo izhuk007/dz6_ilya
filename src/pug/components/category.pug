@@ -1,0 +1,43 @@
+include ../mixins/category-item
+
+section.category.container 
+    h3.subtitle Shop By
+    h2.section-title Categories
+    .category__row
+        +category-item(
+            {
+                img: './assets/images/ct-1.svg',
+                text: 'Vegetables & Fruits'
+            }
+        )
+        +category-item(
+        {
+            img: './assets/images/ct-2.svg',
+            text: 'Grocery & Staples'
+        }
+    )
+        +category-item(
+        {
+            img: './assets/images/ct-3.svg',
+            text: 'Dairy & Eggs'
+        }
+    )
+        +category-item(
+        {
+            img: './assets/images/ct-4.svg',
+            text: 'Beverages'
+        }
+    )
+        +category-item(
+        {
+            img: './assets/images/ct-5.svg',
+            text: 'Snacks'
+        }
+    )
+        +category-item(
+        {
+            img: './assets/images/ct-6.svg',
+            text: 'Home Care'
+        }
+    )
+    
